@@ -35,7 +35,7 @@ public class LoginController extends HttpServlet {
 		if(status) {
 			
 		HttpSession session = request.getSession(true);
-		session.setMaxInactiveInterval(10);
+		session.setMaxInactiveInterval(60);
 		session.setAttribute("email", email);
 		
 			RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/registration.jsp");
