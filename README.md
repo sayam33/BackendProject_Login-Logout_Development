@@ -21,7 +21,7 @@ create table login
  password varchar (15)
 );
 insert into login (email,password)value('ssdmmishra456@gamil.com','gugulsayam')
-select from login;
+select * from login;
 
 use projectdb;
 create table registration
