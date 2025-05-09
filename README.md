@@ -26,9 +26,9 @@ select * from login;
 use projectdb;
 create table registration
 (
-name varchar (15),
+name varchar (100),
 email varchar (128),
-course varchar (15),
+course varchar (500),
 mobile varchar (10)
 );
 select * from registration; .
